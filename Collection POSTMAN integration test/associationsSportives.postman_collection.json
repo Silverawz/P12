@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "a7fff636-b1db-453d-bb3c-7fe92e7d22e2",
+		"name": "associationsSportives",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/AssociationsSportives-0.0.1-SNAPSHOT/api/sport/categories/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"AssociationsSportives-0.0.1-SNAPSHOT",
+						"api",
+						"sport",
+						"categories",
+						"all"
+					]
+				},
+				"description": "get the categories list"
+			},
+			"response": []
+		},
+		{
+			"name": "getArticleFromFootball",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/AssociationsSportives-0.0.1-SNAPSHOT/api/sport/football/active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"AssociationsSportives-0.0.1-SNAPSHOT",
+						"api",
+						"sport",
+						"football",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getArticleByBasketball",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/AssociationsSportives-0.0.1-SNAPSHOT/api/sport/basketball/active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"AssociationsSportives-0.0.1-SNAPSHOT",
+						"api",
+						"sport",
+						"basketball",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getArticleById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/AssociationsSportives-0.0.1-SNAPSHOT/api/sport/article?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"AssociationsSportives-0.0.1-SNAPSHOT",
+						"api",
+						"sport",
+						"article"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sign in",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n    \"username\":\"aaa@aol.fr\",\r\n    \"password\":\"123456\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/AssociationsSportives-0.0.1-SNAPSHOT/api/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"AssociationsSportives-0.0.1-SNAPSHOT",
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

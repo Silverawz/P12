@@ -1,0 +1,31 @@
+Guide de déploiement de l'application Angular
+(Il est important de préciser que l'application nécessite d'avoir l'API de déployée. Sinon le site n'affichera aucune information)
+
+Installer firebase
+Créer un compte sur firebase et créer un nouveau projet
+
+Lancer l'invité de commande et écrivez :
+firebase init
+
+Ensuite dans la liste de sélection, sélectionner :
+select Hosting: Configure and deploy Firebase Hosting sites
+
+Ensuite pour cette question : 
+what do you want to use as your public directory? 
+Ecrivez : dist/ngassociation
+
+Pour cette question :
+Configure as a single-page app (rewrite all urls to /index.html)? (y/N) 
+Répondez : N
+
+Pour cette question :
+File dist/ngassociation/index.html already exists. Overwrite? (y/N) 
+Répondez : N
+
+Ce message devrait apparaître :
+Firebase initialization complete
+
+Ensuite pour déployer, écrivez :
+fireboy deploy
+
+L'url du site devrait apparaître dans la console.
