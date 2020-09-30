@@ -1,7 +1,7 @@
 Guide de déploiement de l'application Angular
 (Il est important de préciser que l'application nécessite d'avoir l'API de déployée. Sinon le site n'affichera aucune information)
 
-Installer firebase
+Installer npm puis installer firebase
 Créer un compte sur firebase et créer un nouveau projet
 
 Lancer l'invité de commande et écrivez :
