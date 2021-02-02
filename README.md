@@ -10,14 +10,14 @@ Et dans un second temps, faire un forum de partage pour leurs membres.
 
 ## Les technologies utilisées :
  
- * JAVA EE 11
- * SPRING BOOT
- * MAVEN
- * API REST
- * JsonWebToken pour la sécurité
- * ANGULAR
+ * Java EE 11
+ * Sring Boot
+ * Maven
+ * API Rest
+ * JsonWebToken
+ * Angular CLI
  * HTML/CSS
- * MYSQL
+ * MySQL
 
 
 
