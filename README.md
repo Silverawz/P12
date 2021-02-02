@@ -23,11 +23,14 @@ Et dans un second temps, faire un forum de partage pour leurs membres.
 
 ## Installation et déploiement
 
-Le guide d'installation et de déploiement de l'application est disponible (https://github.com/Silverawz/P12/tree/master/Applications/API%20Associations%20Sportives) et 
+Le guide d'installation et de déploiement de l'application est disponible (https://github.com/Silverawz/P12/tree/master/Applications/API%20Associations%20Sportives) 
+et 
 (https://github.com/Silverawz/P12/tree/master/Applications/Application%20Angular%20FRONT)
 
 Le code source de l'application Front est disponible (https://github.com/Silverawz/p12front-angular)
+
 Le code source de l'application Back est disponible (https://github.com/Silverawz/p12_BackEnd)
+
 La base de données MySQL et les scripts (https://github.com/Silverawz/P12/tree/master/Bdd)
 
 
