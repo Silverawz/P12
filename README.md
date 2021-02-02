@@ -10,13 +10,13 @@ Et dans un second temps, faire un forum de partage pour leurs membres.
 
 ## Les technologies utilisées :
  
- -JAVA EE 11
- -SPRING BOOT
- -MAVEN
- -API REST
- -ANGULAR
- -HTML/CSS
- -MYSQL
+ *JAVA EE 11
+ *SPRING BOOT
+ *MAVEN
+ *API REST
+ *ANGULAR
+ *HTML/CSS
+ *MYSQL
 
 
 
