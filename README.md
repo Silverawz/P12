@@ -14,6 +14,7 @@ Et dans un second temps, faire un forum de partage pour leurs membres.
  * SPRING BOOT
  * MAVEN
  * API REST
+ * JsonWebToken pour la sécurité
  * ANGULAR
  * HTML/CSS
  * MYSQL
